@@ -16,7 +16,7 @@ fn main() {
     router.get("/", get_form, "root");
     router.post("/gcd", post_gcd, "gcd");
 
-    println!("Hello, world! Web server listenning on port 3000");
+    println!("Hello, world! 😻😻 Web server listenning on port 3000");
     Iron::new(router).http("localhost:3000").unwrap();
 }
 
